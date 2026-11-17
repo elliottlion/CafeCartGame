@@ -1,0 +1,1 @@
+//town screen uses movement.js and navigation to the other places, will also show the character

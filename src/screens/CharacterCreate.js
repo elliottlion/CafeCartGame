@@ -1,0 +1,1 @@
+//character creation, right now just asthetics and name
