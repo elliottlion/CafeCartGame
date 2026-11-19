@@ -39,6 +39,7 @@ export const storeItems = {
     tomato : new Items("tomato",1,0,8,tomatoSlices,null,null,"a tomato"),
     packOfBeef : new Items("pack of beef",1,0,4,burgerPatty,null,null,"a 1lb pack of beef"),
     packofBuns : new Items("6pack of buns", 3, 0, 6, "bun",null,null, "a pack of 6 buns"),
+    greenTeaPack : new Items("pack of green tea", 2, 0, 5, "tea", null, null, "a pack of looseleaf grean tea"),
 }
 export const items = {
     //items to make a burger
@@ -48,6 +49,7 @@ burgerPatty : new Items("burger patty",0,0,0,null, null, null, "a quarter lb pat
 ketchup : new Items("ketchup",0,0,0,null, null, null, "ketchup"),
 pickles : new Items("pickle",0,0,0,null, null, null, "a pickle"), 
 lettuce : new Items("lettuce",0,0,0,null,null,null, "a piece of lettuce"),
+greenTeaBag : new Items("green tea bag", 0, 0, 0, null, null, null, "a small sachet of looseleaf greenTea")
 //other items inserted here 
 //copy paste and edit
 }
