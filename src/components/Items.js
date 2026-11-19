@@ -32,6 +32,10 @@ class Items {
     
     
 }
+//the store items are stored here, they will have an itemto and a buy quantity that converts them to individual items in our inventory
+//the inventory quantity will be based on how many individual pickles or portions of coffee that we have 
+//we will think about this as hp where each recipe will deduct hp from our inventory 
+// a burger will "damage/deduct" 3 from pickles 1 from bun ect
 export const storeItems = {
     headOfLettuce : new Items("Head of lettuce",1,0,10,lettuce, null, null, "a head of lettuce"),
     jarOfPickles : new Items("jar of pickles",3,0,20,pickles, null, null, "a jar of pickles"),
@@ -40,6 +44,7 @@ export const storeItems = {
     packOfBeef : new Items("pack of beef",1,0,4,burgerPatty,null,null,"a 1lb pack of beef"),
     packofBuns : new Items("6pack of buns", 3, 0, 6, "bun",null,null, "a pack of 6 buns"),
     greenTeaPack : new Items("pack of green tea", 2, 0, 5, "tea", null, null, "a pack of looseleaf grean tea"),
+    bagofCoffee :new Items("Coffee",5,0,20,coffeePortion,null,null,"a bag of ground coffee"),
 }
 export const items = {
     //items to make a burger
@@ -49,7 +54,8 @@ burgerPatty : new Items("burger patty",0,0,0,null, null, null, "a quarter lb pat
 ketchup : new Items("ketchup",0,0,0,null, null, null, "ketchup"),
 pickles : new Items("pickle",0,0,0,null, null, null, "a pickle"), 
 lettuce : new Items("lettuce",0,0,0,null,null,null, "a piece of lettuce"),
-greenTeaBag : new Items("green tea bag", 0, 0, 0, null, null, null, "a small sachet of looseleaf greenTea")
+greenTeaBag : new Items("green tea bag", 0, 0, 0, null, null, null, "a small sachet of looseleaf greenTea"),
+coffeePortion: new Items("coffee portion",0,0,0,null,null,null, "a portioned out serving of coffee"), 
 //other items inserted here 
 //copy paste and edit
 }
