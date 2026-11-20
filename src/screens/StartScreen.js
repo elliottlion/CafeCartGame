@@ -2,7 +2,7 @@
 import { StatusBar } from 'expo-status-bar';
 import {useState} from 'react';
 import { StyleSheet, Text, View, Pressable, Image, FlatList } from 'react-native';
-import DropdownBox from './components/CCDropDownBoxes';
+import DropdownBox from '../components/CCDropDownBoxes';
 
 
 const Play_Menu = "StartScreen";
