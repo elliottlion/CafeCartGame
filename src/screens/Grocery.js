@@ -1,7 +1,29 @@
 //grocery store
 //has list of items and price
-import { Text } from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
+import {storeItems} from '../components/Items';
 
-export default function Grocery() {
-  return <Text>Grocery</Text>;
+const Grocery = () => {
+  return (
+  <View style={styles.container}>
+    <Text style={styles.text}> Grocery Screen</Text>;
+  </View>
+);
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#40057b',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    padding: 20 ,
+  },
+
+   text: {
+    fontFamily: 'Arial',
+    fontSize: 20 ,
+  }
+});
+
+export default Grocery;

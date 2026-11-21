@@ -60,7 +60,8 @@ coffeePortion: new Items("coffee portion",0,0,0,null,null,null, "a portioned out
 //copy paste and edit
 }
 export const storeItemsList = [
-    headOfLettuce,jarOfPickles,ketchupBottle,tomato,packofBuns,packofbeef,
+    headOfLettuce,jarOfPickles,ketchupBottle,tomato,packofBuns,packofbeef,greenTeaPack,
+    bagofCoffee
 ]
 
 export default Items;
