@@ -3,7 +3,7 @@
 
 import {Text, View, StyleSheet} from 'react-native';
 
-const CharacterCreate = () => {
+const CharacterCreate = (navigation) => {
   return (
   <View style={styles.container}>
     <Text style={styles.text}> CharacterCreate Screen</Text>;

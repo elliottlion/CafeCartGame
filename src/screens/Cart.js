@@ -1,7 +1,7 @@
 //the cart screen
 import {Text, View, StyleSheet} from 'react-native';
 
-const Cart = () => {
+const Cart = (navigation) => {
   return (
   <View style={styles.container}>
     <Text style={styles.text}> Cart Screen</Text>;

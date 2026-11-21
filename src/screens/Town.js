@@ -1,7 +1,7 @@
 //town screen uses movement.js and navigation to the other places, will also show the character
 import {Text, View, StyleSheet} from 'react-native';
 
-const Town = () => {
+const Town = (navigation) => {
   return (
   <View style={styles.container}>
     <Text style={styles.text}> Town Screen</Text>;

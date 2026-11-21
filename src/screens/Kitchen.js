@@ -1,7 +1,7 @@
 //if we get here we can make ingredients like buns, soups, and sauces for cheap
 import {Text, View, StyleSheet} from 'react-native';
 
-const Kitchen = () => {
+const Kitchen = (navigation) => {
   return (
   <View style={styles.container}>
     <Text style={styles.text}> Kitchen Screen</Text>;

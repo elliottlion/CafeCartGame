@@ -1,10 +1,10 @@
 //park screen, cart will be here 
 import {Text, View, StyleSheet} from 'react-native';
 
-const Park = () => {
+const Park = (navigation) => {
   return (
   <View style={styles.container}>
-    <Text style={styles.text}>Park Screen</Text>;
+    <Text style={styles.text}>Park Screen</Text>
   </View>
 );
 }

@@ -1,9 +1,8 @@
 //grocery store
 //has list of items and price
 import {Text, View, StyleSheet} from 'react-native';
-import {storeItems} from '../components/Items';
 
-const Grocery = () => {
+const Grocery = (navigation) => {
   return (
   <View style={styles.container}>
     <Text style={styles.text}> Grocery Screen</Text>;

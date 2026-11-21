@@ -37,14 +37,14 @@ class Items {
 //we will think about this as hp where each recipe will deduct hp from our inventory 
 // a burger will "damage/deduct" 3 from pickles 1 from bun ect
 export const storeItems = {
-    headOfLettuce : new Items("Head of lettuce",1,0,10,lettuce, null, null, "a head of lettuce"),
-    jarOfPickles : new Items("jar of pickles",3,0,20,pickles, null, null, "a jar of pickles"),
-    ketchupBottle : new Items("bottle of ketchup",3,0,20,ketchup, null, null, "a bottle of ketchup"),
+    headOfLettuce : new Items("Head of lettuce",1,0,10,items.lettuce, null, null, "a head of lettuce"),
+    jarOfPickles : new Items("jar of pickles",3,0,20,items.pickles, null, null, "a jar of pickles"),
+    ketchupBottle : new Items("bottle of ketchup",3,0,20,items.ketchup, null, null, "a bottle of ketchup"),
     tomato : new Items("tomato",1,0,8,tomatoSlices,null,null,"a tomato"),
-    packOfBeef : new Items("pack of beef",1,0,4,burgerPatty,null,null,"a 1lb pack of beef"),
-    packofBuns : new Items("6pack of buns", 3, 0, 6, "bun",null,null, "a pack of 6 buns"),
-    greenTeaPack : new Items("pack of green tea", 2, 0, 5, "tea", null, null, "a pack of looseleaf grean tea"),
-    bagofCoffee :new Items("Coffee",5,0,20,coffeePortion,null,null,"a bag of ground coffee"),
+    packOfBeef : new Items("pack of beef",1,0,4,items.burgerPatty,null,null,"a 1lb pack of beef"),
+    packofBuns : new Items("6pack of buns", 3, 0, 6, items.bun,null,null, "a pack of 6 buns"),
+    greenTeaPack : new Items("pack of green tea", 2, 0, 5, items.greenTeaBag, null, null, "a pack of looseleaf grean tea"),
+    bagofCoffee : new Items("Coffee",5,0,20,items.coffeePortion,null,null,"a bag of ground coffee"),
 }
 export const items = {
     //items to make a burger
