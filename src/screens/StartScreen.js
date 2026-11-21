@@ -118,16 +118,15 @@ export default StartScreen;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#FDBA90',
     alignItems: 'center',
     //Change when theres an actual image avaliable instead of text
     justifyContent: 'space-between',
-    backgroundColor: '#FDBA90',
   },
   playButton:{
     borderWidth: 5,
     borderColor: '#D28A8C',
-    backgroundColor: 'EEBEC6',
+    backgroundColor: '#EEBEC6',
     fontSize: 40,
   },
   text: {
